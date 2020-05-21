@@ -1,4 +1,16 @@
-<html lang="en-gb" class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths"><!--<![endif]--><head>
+<!--
+Theme Name: alive-Responsive-Coming-Soon-Template 
+Author URI: http://webthemez.com/
+Description: alive is a minimal, responsive, business coming soon / landing page / one page HTML5 template based on Bootstrap 3.2.0. This theme is clean and fast, easy to customize multipurpose, includes Services and Contact form, 400+ Font Awesome icons, custom backgrounds and much more!
+-->
+<!doctype html>
+<!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en-gb" class="no-js">
+<!--<![endif]-->
+<head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <!--[if lt IE 9]> 
@@ -13,9 +25,9 @@
 <!--[if lte IE 8]>
 		<script type="text/javascript" src="http://explorercanvas.googlecode.com/svn/trunk/excanvas.js"></script>
 	<![endif]-->
-<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css" />
 <link href="css/animate.css" rel="stylesheet" media="screen">
-<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/styles.css" />
 <link href="font/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
@@ -27,8 +39,6 @@
     <li><a href="#services" class="scroll-link">Services</a></li>
     <li><a href="#aboutUs" class="scroll-link">About Us</a></li>
     <li><a href="#contactUs" class="scroll-link">Contact Us</a></li>
-    <h2>HTML Image</h2>
-    <img src="pic_trulli.jpg" alt="Trulli" width="500" height="333">
   </ul>
 </nav>
 <!--/.header-->
@@ -37,12 +47,12 @@
   <div class="banner-container">
     <div class="container">
       <div class="row">
-        <div class="logo"> <img src="images/logo.png" alr="logo"> </div>
+        <div class="logo"> <img src="images/logo.png" alr='logo'/> </div>
       </div>
       <div class="heading text-center">
         <h2>Our new site is coming soon!!!</h2>
         <strong>Stay tuned for something amazing</strong> </div>
-      <div class="countdown styled"><div>000 <span>days</span></div><div>00 <span>hrs</span></div><div>00 <span>min</span></div><div>00 <span>sec</span></div></div>
+      <div class="countdown styled"></div>
     </div>
   </div>
 </section>
@@ -50,28 +60,28 @@
   <div class="container">
     <div class="row"> 
       <!-- item -->
-      <div class="col-md-3 text-center animated fadeInUp show" style="opacity: 0;"> <i class="fa fa-arrows fa-2x circle"></i>
+      <div class="col-md-3 text-center"> <i class="fa fa-arrows fa-2x circle"></i>
         <h3>Responsive <span class="id-color">Design</span></h3>
         <p>Nullam ac rhoncus sapien, non gravida purus. Alinon elit imperdiet congue. Integer elit.</p>
       </div>
       <!-- end: --> 
       
       <!-- item -->
-      <div class="col-md-3 text-center animated fadeInUp show" style="opacity: 0;"> <i class="fa fa-css3 fa-2x circle"></i>
+      <div class="col-md-3 text-center"> <i class="fa fa-css3 fa-2x circle"></i>
         <h3>HTML5/CSS3 <span class="id-color">Dev</span></h3>
         <p>Nullam ac rhoncus sapien, non gravida purus. Alinon elit imperdiet csdef seffes dfef set.</p>
       </div>
       <!-- end: --> 
       
       <!-- item -->
-      <div class="col-md-3 text-center animated fadeInUp show" style="opacity: 0;"> <i class="fa fa-lightbulb-o fa-2x circle"></i>
+      <div class="col-md-3 text-center"> <i class="fa fa-lightbulb-o fa-2x circle"></i>
         <h3>JavaScript <span class="id-color">jQuery</span></h3>
         <p>Nullam ac rhoncus sapien, non gravida purus. Alinon elit imperdiet congue. Integer ultr.</p>
       </div>
       <!-- end: --> 
       
       <!-- item -->
-      <div class="col-md-3 text-center animated fadeInUp show" style="opacity: 0;"> <i class="fa fa-globe fa-2x circle"></i>
+      <div class="col-md-3 text-center"> <i class="fa fa-globe fa-2x circle"></i>
         <h3>Web <span class="id-color">Designing</span></h3>
         <p>Nullam ac rhoncus sapien, non gravida purus. Alinon elit imperdiet congue. Integnempus.</p>
       </div>
@@ -80,7 +90,7 @@
   </div>
   <!--/.container--> 
 </section>
-<section id="aboutUs" style="opacity: 0;">
+<section id="aboutUs">
   <div class="container">
     <div class="row feature design">
       <div class="six columns right">
@@ -95,7 +105,7 @@
   </div>
 </section>
 <section id="contactUs" class="contact-parlex">
-  <div class="parlex-back" style="opacity: 0;">
+  <div class="parlex-back">
     <div class="container">
       <div class="row">
         <div class="heading text-center"> 
@@ -106,19 +116,19 @@
       </div>
       <div class="row mrgn30">
 	  <div id="contactfrm">
-	  <form method="POST" id="contact-form" class="form-horizontal" action="contactengine.php" onsubmit="alert('Thank you for your feedback!');">
+	  <form method="POST" id="contact-form" class="form-horizontal" action="contactengine.php" onSubmit="alert('Thank you for your feedback!');">
 							<div class="col-sm-12">
 							<div class="form-group">
-							<input type="text" name="Name" id="Name" class="form-control wow fadeInUp" placeholder="Name" required="">
+							<input type="text" name="Name" id="Name" class="form-control wow fadeInUp" placeholder="Name" required/>
 							</div>
 							<div class="form-group">
-							<input type="text" name="Email" id="Email" class="form-control wow fadeInUp" placeholder="Email" required="">
+							<input type="text" name="Email" id="Email" class="form-control wow fadeInUp" placeholder="Email" required/>
 							</div>					
 							<div class="form-group">
-							<textarea name="Message" rows="10" cols="20" id="Message" class="form-control input-message wow fadeInUp" placeholder="Message" required=""></textarea>
+							<textarea name="Message" rows="10" cols="20" id="Message" class="form-control input-message wow fadeInUp"  placeholder="Message" required></textarea>
 							</div>
 							<div class="form-group">
-							<input type="submit" name="submit" value="Submit" class="btn btn-success wow fadeInUp">
+							<input type="submit" name="submit" value="Submit" class="btn btn-success wow fadeInUp" />
 							</div>
 							</div>
 						</form>		
@@ -156,6 +166,5 @@
 <script src="js/Backstretch.js" type="text/javascript"></script> 
 <script src="js/custom.js" type="text/javascript"></script> 
 <script type="text/javascript" src="js/jquery.countdown.js"></script>
-
-
-<div class="backstretch" style="left: 0px; top: 0px; overflow: hidden; margin: 0px; padding: 0px; height: 625px; width: 794px; z-index: -999999; position: fixed;"><img src="images/img1.jpg" class="deleteable" style="position: absolute; margin: 0px; padding: 0px; border: none; width: 1229.24px; height: 625px; max-height: none; max-width: none; z-index: -999999; left: -217.622px; top: 0px;"><img src="images/img2.jpg" style="position: absolute; margin: 0px; padding: 0px; border: none; width: 1229.24px; height: 625px; max-height: none; max-width: none; z-index: -999999; opacity: 0.788786; left: -217.622px; top: 0px;"></div></body></html>
+</body>
+</html>
